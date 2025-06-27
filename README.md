@@ -1,2 +1,2 @@
-# qatest
+# qatest for lessons
 Test repo
