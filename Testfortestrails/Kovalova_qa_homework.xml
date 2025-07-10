@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Zezman</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Проверка вида и размера шрифта надписи &quot;Зв&apos;язатися з нами&quot;  в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Проверить вид и размер шрифта надписи &quot;Зв&apos;язатися з нами&quot;
+
+</steps>
+											<expected>Шрифт - sans-serif, размер - 40</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Проверка количества цифр, указанных в номерах телефонов для связи в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Проверить количество цифр, указанных в номерах телефонов для связи
+
+</steps>
+											<expected>Количество цифр -12. Соответствует международному формату</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Проверка соответствия иконки &quot;Флаг&quot; стране, код которой указан в номере телефона для связи первым в списке в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Проверить соответствия иконки &quot;Флаг&quot; стране, код которой указан первым в списке номеров телефонов для связи 
+
+</steps>
+											<expected>Отображается иконка с флагом Украины</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Проверка цвета шрифта надписи &quot;Ми в соціальних мережах:&quot;  в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Проверить цвет шрифта надписи &quot;Ми в соціальних мережах:&quot;
+
+</steps>
+											<expected>Цвет шрифта - серый, first-color-3: #ABAEB5</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Проверка фунциональности drop-down меню при выборе тематики обращения в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Проверить фунциональности выпадающего списка при выборе тематики обращения, нажав на элемент &quot;стрелка вправо&quot; в поле выбора
+
+</steps>
+											<expected>При нажатии элемента &quot;стрелка вправо&quot; в поле выбора выпадает список возможных тем обращения
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Проверка цвета фона в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Проверить цвет фона в разделе &quot;Зв&apos;язатися з нами&quot;
+
+</steps>
+											<expected>Цвет шрифта - бирюзовый, second-color-hover: #006572</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Проверка изменения цвета графического элемента социальных сетей при наведении на него курсора в поле &quot;Ми с соціальних мережах&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Навести курсор на графический элемент социальной сети (Facebook, Instagram, LinkedIn, Youtube) в поле &quot;Ми в соціальних мережах&quot;.
+2. Проверить цвет графического элемента
+</steps>
+											<expected>При наведении курсора на графический элемент социальной сети цвет меняется на красный
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверка фунциональности ссылки &quot;політики конфіденційності&quot; в разделе Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. В поле справа внизу нажать на ссылку &quot;політики конфіденційності&quot;  в строке подтверждения &quot;приймаю умови політики конфіденційності&quot;
+
+
+
+
+
+</steps>
+											<expected>При нажатии на ссылку &quot;політики конфіденційності&quot; открывается страница с текстом &quot;Политика конфіденційності&quot;
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверка возможности отправки форми обращения без подтверждения принятия &quot;Політики конфіденційності&quot; в разделе Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Заполнить все поля формы обращения
+2. Поле подтверждения принятия &quot;Політики конфіденційності&quot; оставить пустым
+3. Нажать кнопку &quot;Відправити&quot;
+
+
+
+
+
+</steps>
+											<expected>Форма обращения не отправляется. Отображается сообщение &quot;Прийміть політику конфіденційності&quot;.
+
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Проверка фунциональности иконки &quot;Youtube&quot; в поле &quot;Ми в соціальних мережах:&quot; раздела Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Нажать на иконку &quot;Youtube&quot; в поле &quot;Ми в соціальних мережах:&quot; 
+
+
+
+
+
+</steps>
+											<expected>Референс перенаправляет на страницу &quot;Zezman&quot; в социальной сети Youtube </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Проверка возможности прикрепить документ недопустимого формата с расширением .exe в функциональности &quot;Прикріпити документ&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Прикрепить файл с расширением .exe в поле &quot;Прикріпити документ&quot;
+2. Нажать на кнопку &quot;Відправити&quot;
+
+
+
+
+</steps>
+											<expected>В поле &quot;Прикріпити документ&quot; появляется сообщение &quot;Дозволені формати: doc, docx, rtf, xls, pdf. Розмір файлу не повинен перевищувати 15МБ&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Проверка возможности прикрепить документ больше допустимого размера в функциональности &quot;Прикріпити документ&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Прикрепить файл в формате pdf размером 20 МБ
+2. Нажать на кнопку &quot;Відправити&quot;
+
+
+
+
+</steps>
+											<expected>В поле &quot;Прикріпити документ&quot; появляется сообщение &quot;Дозволені формати: doc, docx, rtf, xls, pdf. Розмір файлу не повинен перевищувати 15МБ&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Проверка возможности ввода более 9 цифр (без учета кода страны) в поле &quot;Телефон&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>120</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести 10 цифр в поле &quot;Телефон&quot; после кода страны
+
+
+
+
+</steps>
+											<expected>Невозможно ввести более 10 цифр в поле &quot;Телефон&quot; (без учета кода страны) </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Проверка возможности ввода букв в поле &quot;Телефон&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>120</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести произвольный набор букв в поле &quot;Телефон&quot; 
+
+
+
+
+</steps>
+											<expected>Невозможно ввести буквы в поле &quot;Телефон&quot; </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Проверка возможности ввода произвольного набора букв в поле &quot;E-mail&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Svaquer Kovince</assignedto>
+												<estimate>120</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести произвольный набор букв в поле &quot;E-mail&quot;
+
+
+
+
+</steps>
+											<expected>Отображается сообщение &quot;Некоректно заповнено поле&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
